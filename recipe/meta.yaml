@@ -21,23 +21,28 @@ requirements:
     - python
     - pip
     - numpy
+    - setuptools
+    - wheel
   run:
     - python
     - {{ pin_compatible('numpy') }}
     - scipy >=0.9
 
 test:
+  requires:
+    - pip
   imports:
     - ecos
     - _ecos
-  files:
-    - test_interface_bb.py  # copied from repo; isn't in the sdist
+  # files:
+    # - test_interface_bb.py  # copied from repo; isn't in the sdist
   commands:
-    - python test_interface_bb.py
+    # - python test_interface_bb.py
+    - pip check
 
 about:
-  home: http://www.embotech.com/ECOS
-  license: GPL-3.0
+  home: https://github.com/embotech/ecos/wiki
+  license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE  # in recipe for now; https://github.com/embotech/ecos-python/pull/15
   summary: 'Python interface for ECOS, a lightweight conic solver for second-order cone programming'

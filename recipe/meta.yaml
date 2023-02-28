@@ -42,12 +42,14 @@ test:
 
 about:
   home: https://github.com/embotech/ecos/wiki
+  description: 'This is the Python package for ECOS: Embedded Cone Solver. See Github page for more information.'
   license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE  # in recipe for now; https://github.com/embotech/ecos-python/pull/15
-  summary: 'Python interface for ECOS, a lightweight conic solver for second-order cone programming'
+  summary: 'Python interface for ECOS a lightweight conic solver for second-order cone programming'
   dev_url: https://github.com/embotech/ecos-python
 
 extra:
   recipe-maintainers:
     - dougalsutherland
+    - h-vetinari

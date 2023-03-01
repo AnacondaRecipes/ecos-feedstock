@@ -48,7 +48,7 @@ about:
   license_file: LICENSE  # in recipe for now; https://github.com/embotech/ecos-python/pull/15
   summary: 'Python interface for ECOS a lightweight conic solver for second-order cone programming'
   dev_url: https://github.com/embotech/ecos-python
-  doc_url: https://github.com/embotech/ecos
+  doc_url: https://github.com/embotech/ecos-python
 
 extra:
   recipe-maintainers:

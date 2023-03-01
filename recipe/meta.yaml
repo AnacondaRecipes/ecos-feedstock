@@ -34,10 +34,10 @@ test:
   imports:
     - ecos
     - _ecos
-  # files:
-    # - test_interface_bb.py  # copied from repo; isn't in the sdist
+  files:
+    - test_interface_bb.py  # copied from repo; isn't in the sdist
   commands:
-    # - python test_interface_bb.py
+    - python test_interface_bb.py
     - pip check
 
 about:
